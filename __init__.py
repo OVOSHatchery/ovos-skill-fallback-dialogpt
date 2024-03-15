@@ -29,7 +29,3 @@ class DialoGPTSkill(FallbackSkill):
             return False
         self.speak(answer)
         return True
-
-
-def create_skill():
-    return DialoGPTSkill()
